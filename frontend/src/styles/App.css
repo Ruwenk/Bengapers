@@ -1,0 +1,67 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#101828;
+  color: white;
+  padding: 0.5rem 1rem;   /* antes era 1rem, ahora más delgado */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 1000;
+  height: 50px;           /* altura fija más baja */
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.2rem;      /* título más compacto */
+}
+
+nav a {
+  margin: 0 0.6rem;
+  color: white;
+  font-weight: 500;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  width: 100%;
+}
+
+.footer {
+  background-color: #2c3546;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
+/* Barra de navegación */
+.navbar {
+  background-color: #1e1e2f; /* 👈 aquí cambias el color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Estilos de los enlaces */
+.navbar nav a {
+  color: white; /* color del texto */
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #ffcc00; /* 👈 color al pasar el mouse */
+}

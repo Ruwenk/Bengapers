@@ -1,0 +1,50 @@
+.navbar {
+  background-color: #334c7e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;  /* 👈 reduce la altura */
+   height: 20px;
+
+}
+
+
+.logo-img {
+  height: 30px;       /* 👈 tamaño del logo */
+  margin-right: 0.5rem;
+}
+
+
+.navbar-logo img {
+  height: 20px;   /* tamaño del logo */
+  margin-right: 0.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 4rem; /* separa las pestañas automáticamente */
+}
+
+.nav-link {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease; /* animación suave */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* color al pasar el mouse */
+}
+
+.nav-icon {
+  margin-right: 0.8rem; /* separación entre ícono y texto */
+  font-size: 1rem;    /* tamaño del ícono */
+}
+.logo {
+  height: 50px;   /* ajusta según tu diseño */
+   margin-right: 8rem;
+}
